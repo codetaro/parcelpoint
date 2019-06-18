@@ -135,7 +135,7 @@
 											"top": 113,
 											"width": 118.84716796875,
 											"height": 13,
-											"text": "+commands",
+											"text": "+command",
 											"horizontalAlignment": 0
 										}
 									],
@@ -171,13 +171,30 @@
 											"height": 13,
 											"text": "+simulateArm()",
 											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLOperationView",
+											"_id": "AAAAAAFrZ9lNwK2tmZ8=",
+											"_parent": {
+												"$ref": "AAAAAAFrZaf53eJBTuo="
+											},
+											"model": {
+												"$ref": "AAAAAAFrZ9lNk62q91o="
+											},
+											"font": "Arial;13;0",
+											"left": 253,
+											"top": 151,
+											"width": 118.84716796875,
+											"height": 13,
+											"text": "+setCommand()",
+											"horizontalAlignment": 0
 										}
 									],
 									"font": "Arial;13;0",
 									"left": 248,
 									"top": 131,
 									"width": 128.84716796875,
-									"height": 23
+									"height": 38
 								},
 								{
 									"_type": "UMLReceptionCompartmentView",
@@ -2590,8 +2607,7 @@
 							"_parent": {
 								"$ref": "AAAAAAFrZaf52uI4wI4="
 							},
-							"name": "commands",
-							"type": ""
+							"name": "command"
 						}
 					],
 					"operations": [
@@ -2602,6 +2618,14 @@
 								"$ref": "AAAAAAFrZaf52uI4wI4="
 							},
 							"name": "simulateArm"
+						},
+						{
+							"_type": "UMLOperation",
+							"_id": "AAAAAAFrZ9lNk62q91o=",
+							"_parent": {
+								"$ref": "AAAAAAFrZaf52uI4wI4="
+							},
+							"name": "setCommand"
 						}
 					]
 				},
